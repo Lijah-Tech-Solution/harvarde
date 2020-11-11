@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Undergraduate Application Print Out</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/bootstrap.min.css" rel="stylesheet">
+        <style>
+             *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            section#main{
+                margin: 3em;
+                padding: 2em;
+                border: solid 2px rgb(22, 5, 54);
+                border-radius: .3em;
+            }
+            .header{
+                display: grid;
+                grid-template-columns: 1fr 5fr 1fr;
+                align-items: center;
+            }
+            img{
+                width: 10em;
+            }
+            section div.header{
+                text-align: center;
+                line-height: 2.5em;
+            }
+            h3{
+              font-weight: bold;
+              padding: .5em;
+              color: #fff;
+              background-color: #26176b;
+              text-transform: capitalize;
+            }
+            .header h2{
+                font-size: 1.5em;
+                font-weight: bolder;
+                color: #261477;
+            }
+            .print_out{
+                font-weight: lighter;
+                margin: 1.5em;
+                text-align: center;
+            }
+            thead{
+              text-transform: capitalize;
+            }
+            thead, tbody{
+                font-size: larger;
+            }
+            .grades{
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              grid-gap: 4em;
+            }
+            .grades h4{
+              font-style: italic;
+              font-weight: bolder;
+            }
+
+        </style>
+    </head>
+    <body>
+        <section id="main">
+            <div class="header">
+                <div class="first">
+                    <img src="/img/re.png"  alt="harvade logo">
+                </div>
+                <div class="second">
+                    <h2>HARVARDE COLLEGE OF BUSINESS AND MANAGEMENT SCIENCE <br> <span>PARTNERING</span> <br> PENOTHNIEL COLLEGE OF HEALTH SCIENCES AND TECHNOLOGY</h2>
+                    
+                </div>
+                <div class="third"><img src="/img/re.png" alt="harvade logo"></div>
+                
+            </div>
+            <h2 class="print_out">Undergraduate Application Print Out</h2>
+
+            <h3>Personal Info</h3>
+            <table class="table ">
+                <thead>
+                  <tr>
+                    <th scope="col">Passport</th>
+                    <th scope="col">Application Type</th>
+                    <th scope="col">Surname</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><img src="/img/profile.jpeg"  alt="Passport"></td>
+                    <td>Undergraduate</td>
+                    <td>Doe</td>
+                  </tr>
+                </tbody>
+              </table>
+              <br>
+            <table class="table ">
+                <thead>
+                  <tr>
+                    <th scope="col">First Name</th>
+                    <th scope="col">Other Names</th>
+                    <th scope="col">Sex</th>
+                    <th scope="col">Date of Birth</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Phone</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Jane</td>
+                    <td>Lucy</td>
+                    <td>Bisexual</td>
+                    <td>20/20/2020</td>
+                    <td>jane@doe.com</td>
+                    <td>44266377</td>
+                  </tr>
+                </tbody>
+              </table>
+              <br>
+            <h3>Residential/ Next of Kin</h3>
+            <table class="table ">
+                <thead>
+                  <tr>
+                    <th scope="col">State of origin</th>
+                    <th scope="col">Local Govt Area</th>
+                    <th scope="col">Next of kin name</th>
+                    <th scope="col">next of Kin Address</th>
+                    <th scope="col">Home Address</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Okanowa</td>
+                    <td>Cansas</td>
+                    <td>obasa</td>
+                    <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores error enim.</td>
+                    <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores error enim.</td>
+                  </tr>
+                </tbody>
+              </table>
+              <br>
+            <h3>Educational Records</h3>
+            <table class="table ">
+                <thead>
+                  <tr>
+                    <th scope="col">Primary school</th>
+                    <th scope="col">Primary school finished year</th>
+                    <th scope="col">Secondary School</th>
+                    <th scope="col">Secondary School finished year</th>
+                    <th scope="col">Secondary School 2nd sitting(Where Applicable)</th>
+                    <th scope="col">Secondary School finished year 2nd sitting(Where Applicable)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Jinseng High school</td>
+                    <td>2020</td>
+                    <td>bazuka Secondary School</td>
+                    <td>2070</td>
+                    <td>Kuvuki Secondary School</td>
+                    <td>2090</td>
+                  </tr>
+                </tbody>
+              </table>
+            <table class="table ">
+                <thead>
+                  <tr>
+                    <th scope="col">Examination type</th>
+                    <th scope="col">Examination Number</th>
+                    <th scope="col">Examination type(Where Applicable)</th>
+                    <th scope="col">Examination Number(Where Applicable)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>WAEC/GCE</td>
+                    <td>0994948747</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                  </tr>
+                </tbody>
+              </table>
+            <!-- <table class="table ">
+                <thead>
+                    <tr>
+                      <th scope="col">Subject</th>
+                      <th scope="col">Grade</th>
+                      <th scope="col">Subject(Where Applicable)</th>
+                      <th scope="col">Grade(Where Applicable)</th>
+                    </tr>
+                  </thead>
+                <tbody>
+                  <tr>
+                    <td>Biology</td>
+                    <td>A1</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                  </tr>
+                  <tr>
+                    <td>Economics</td>
+                    <td>A1</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                  </tr>
+                  <tr>
+                    <td>Accounts</td>
+                    <td>A1</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                  </tr>
+                  <tr>
+                    <td>Physics</td>
+                    <td>A1</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                  </tr>
+                  <tr>
+                    <td>Mathematics</td>
+                    <td>A1</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                  </tr>
+                  <tr>
+                    <td>Government</td>
+                    <td>A1</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                  </tr>
+                  <tr>
+                    <td>English Language</td>
+                    <td>A1</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                  </tr>
+                  <tr>
+                    <td>Chemistry</td>
+                    <td>A1</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                  </tr>
+                  <tr>
+                    <td>Literature</td>
+                    <td>A1</td>
+                    <td>N/A</td>
+                    <td>N/A</td>
+                  </tr>
+                </tbody>
+              </table> -->
+              
+                <h3>Grades</h3>
+              <div class="grades">
+                <div class="first_sitting ">
+                  <h4>First Sitting</h4>
+                  <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                          <th scope="col">Subject</th>
+                          <th scope="col">Grade</th>
+                        </tr>
+                      </thead>
+                    <tbody>
+                      <tr>
+                        <td>Biology</td>
+                        <td>A1</td>
+                      </tr>
+                      <tr>
+                        <td>Economics</td>
+                        <td>A1</td>
+                      </tr>
+                      <tr>
+                        <td>Accounts</td>
+                        <td>A1</td>
+                      </tr>
+                      <tr>
+                        <td>Physics</td>
+                        <td>A1</td>
+                      </tr>
+                      <tr>
+                        <td>Mathematics</td>
+                        <td>A1</td>
+                      </tr>
+                      <tr>
+                        <td>Government</td>
+                        <td>A1</td>
+                      </tr>
+                      <tr>
+                        <td>English Language</td>
+                        <td>A1</td>
+                      </tr>
+                      <tr>
+                        <td>Chemistry</td>
+                        <td>A1</td>
+                      </tr>
+                      <tr>
+                        <td>Literature</td>
+                        <td>A1</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="second_sitting">
+                  <h4>Second Sitting</h4>
+                  <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                          <th scope="col">Subject(Where Applicable)</th>
+                          <th scope="col">Grade(Where Applicable)</th>
+                        </tr>
+                      </thead>
+                    <tbody>
+                      <tr>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                      </tr>
+                      <tr>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                      </tr>
+                      <tr>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                      </tr>
+                      <tr>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                      </tr>
+                      <tr>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                      </tr>
+                      <tr>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                      </tr>
+                      <tr>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                      </tr>
+                      <tr>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                      </tr>
+                      <tr>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+        </section>
+    </body>
+</html>

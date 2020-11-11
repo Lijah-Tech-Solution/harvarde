@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Admission Letter</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            section#top{
+                display: grid;
+                margin: 1em 6em;
+                justify-content: center;
+                margin: 3em;
+                padding: 2em;
+                border: solid 2px rgb(22, 5, 54);
+                border-radius: .3em;
+                
+            }
+            
+            img{
+                width: 10em;
+            }
+            img.signature{
+                width: 3em;
+            }
+            .watermarked {
+              position: relative;
+            }
+
+            .watermarked:after {
+              content: "";
+              display: block;
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              top: 0px;
+              left: 0px;
+              background-image: url("/img/re.png");
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat;
+              opacity: 0.2;
+            }
+            .header{
+                display: grid;
+                grid-template-columns: 1fr 5fr 1fr;
+                color: #261477;
+            }
+            .header2{
+                display: grid;
+                grid-template-columns: 4fr 2fr 2fr;
+            }
+            .header2 h3{
+                font-weight: bold;
+            }
+            .header2 h3>span{
+                font-weight: lighter;
+            }
+            section div.header{
+                text-align: center;
+                line-height: 2.5em;
+            }
+            h2{
+            font-size: 1.7em;
+            }
+            h2 span{
+                font-size: .9em;
+                font-style: italic;
+            }
+            h3{
+                font-weight: 600;
+            }
+            h3.provisional{
+                align-self: center;
+                text-align: center;
+                font-weight: bolder;
+                font-size: 1.5em;
+                margin: 1em 0em;
+            }
+            .ad, .confirmation{
+                margin: 1em 0em;
+            }
+            .content{
+                margin: .1em 2em;
+                text-justify: auto;
+                line-height: 1.7em;
+                font-size: 1.5em;
+            }
+            .note, .congrats{
+                margin: 2em 0em;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <section id="top">
+                <div class="header">
+                    <div class="first">
+                        <img src="/img/re.png"  alt="harvade logo">
+                    </div>
+                    <div class="second">
+                        <h2>HARVARDE COLLEGE OF BUSINESS AND MANAGEMENT SCIENCE <br> <span>PARTNERING</span> <br> PENOTHNIEL COLLEGE OF HEALTH SCIENCES AND TECHNOLOGY</h2>
+                        
+                    </div>
+                    <div class="third"><img src="/img/re.png" alt="harvade logo"></div>
+                    
+                </div>
+                <div class="header2">
+                    <div class="first">
+                        <h3>Name : <span>Lorem ipsum </span> </h3> <br>
+                        <h3>Address : <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quas eum reprehenderit!</span></h3>
+                    </div>
+                    <div class="second">
+                        
+                    </div>
+                    <div class="third"><img src="/img/profile.jpeg" style="width: 10em;" alt="harvade logo"><br>
+                        <span>REG NUMBER : DSGA56737373</span></div>
+                    
+                </div>
+                <h3 class="provisional">PROVISIONAL OFFER OF ADMISSION</h3>
+                <div class="content watermarked">
+                    <p>I am pleased to inform you that you have been offered provisional Admission intoHarvade College of Business and Management Science to pursue {Programme} for the 2020/2021 Academic session. </p>
+                        <!-- <br> -->
+                    <p class="ad">This provisional admission is based on the assumption that you have read the requirements for the chosen course and possess the requisite qualification as stated in our advertisement.</p>
+                    <p class="confirmation">The confirmation of the provisional admission is subject to your fulfilling the following conditions:</p>
+                        <ol>
+                            <li>Make online Payment of a non refundable Acceptance fee of Twenty Five Thousand five hundred Naira (#25,500) only not later than 18thof December 2020. Click on the payment menu on your dashboard to make payment</li>
+                            <li>Satisfaction of the minimum entry qualification requirements for the course offered.</li>
+                        </ol>
+
+                        <p class="note"><b>Note:</b> candidates are not yet bonafide students until they fulfill all Admission requirements and are dully cleared by their Department and Admission office.</p>
+                        <p>Resumption date is 11th of January 2021.</p>
+                        <p class="congrats">Congratulations.</p>
+                        <img class="signature" src="/img/signature.png" alt="">
+                        <p class="reg"><b>Registrar</b></p>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>

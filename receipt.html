@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/bootstrap.min.css" rel="stylesheet">
+        <link href="/bootstrap.js" rel="stylesheet">
+        <style>
+             *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            section#main{
+                margin: 3em;
+                padding: 2em;
+                border: solid 2px rgb(22, 5, 54);
+                border-radius: .3em;
+            }
+            .watermarked {
+              position: relative;
+            }
+
+            .watermarked:after {
+              content: "";
+              display: block;
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              top: 0px;
+              left: 0px;
+              background-image: url("/img/re.png");
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat;
+              opacity: 0.2;
+            }
+            .header{
+                display: grid;
+                grid-template-columns: 1fr 5fr 1fr;
+                align-items: center;
+            }
+            img{
+                width: 15em;
+            }
+            .header{
+                text-align: center;
+                line-height: 2.5em;
+            }
+            .header h2{
+                font-size: 1.5em;
+                font-weight: bolder;
+                color: #261477;
+            }
+            .sub{
+                font-weight: lighter;
+                margin: 1.5em;
+                text-align: center;
+            }
+            .bursar{
+              align-items: center;
+              align-self: center;
+              /* border-top: solid 1px #000; */
+            }
+            .bursar h3{
+                font-weight: bold;
+                margin: 1em;
+                font-size: 1.5em;
+                text-align: center;
+                
+            }
+            .bursar img{
+              width: 4em;
+              margin: auto 50%;
+
+            }
+            .bursar span{
+              font-size: .8em;
+              font-weight: lighter;
+              font-style: italic;
+            }
+            .student_info{
+                display: grid;
+                grid-template-columns: 5fr 1fr;
+                /* align-items: center; */
+            }
+            .details h3{
+              font-size: 1em;
+            }
+            thead, tbody, .total{
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+
+        </style>
+    </head>
+    <body>
+        <section id="main">
+            <div class="header">
+                <div class="first">
+                    <img src="/img/re.png"  alt="harvade logo">
+                </div>
+                <div class="second">
+                    <h2>HARVARDE COLLEGE OF BUSINESS AND MANAGEMENT SCIENCE <br> <span>PARTNERING</span> <br> PENOTHNIEL COLLEGE OF HEALTH SCIENCES AND TECHNOLOGY</h2>
+                    
+                </div>
+                <div class="third"><img src="/img/re.png" alt="harvade logo"></div>
+                
+            </div>
+            <h2 class="sub">2020/2021 SCHOOL FEES RECEIPT</h2>
+            <!-- <div class="watermarked">
+              <img src="/img/re.png" alt="Photo">
+            </div> -->
+            <div class="student_info watermarked">
+              <div class="cat">
+                <table class="table table-borderless">
+
+                  <tbody>
+                    <tr>
+                      <td>Received From :</td>
+                      <td>Lorem ipsum dolor sit amet consectetur.</td>
+                    </tr>
+                    <tr>
+                      <td>Matric Number :</td>
+                      <td>Lorem ipsum dolor sit amet consectetur.</td>
+                    </tr>
+                    <tr>
+                      <td>Faculty :</td>
+                      <td>Lorem ipsum dolor sit amet consectetur.</td>
+                    </tr>
+                    <tr>
+                      <td>Course :</td>
+                      <td>Lorem ipsum dolor sit amet consectetur.</td>
+                    </tr>
+                    <tr>
+                      <td>Programme :</td>
+                      <td>Lorem ipsum dolor sit amet consectetur.</td>
+                    </tr>
+                    <tr>
+                      <td>Level :</td>
+                      <td>Lorem ipsum dolor sit amet consectetur.</td>
+                    </tr>
+                    <tr>
+                      <td>State :</td>
+                      <td>Lorem ipsum dolor sit amet consectetur.</td>
+                    </tr>
+                    <tr>
+                      <td>Being payment for :</td>
+                      <td>900 Level School Fees for the 2016/2017 Academic Session.</td>
+                    </tr>
+                    <tr>
+                      <td>Total Amount Due<br>(2020/2021)</td>
+                      <td>₦ 119,296.00.</td>
+                    </tr>
+                    
+                  </tbody>
+                  
+                </table>
+                <span class="total">The Sum of : ONE HUNDRED AND NINETEENTHOUSAND, TWO HUNDRED AND NINETY-SIX</span>
+              </div>
+              <div class="passport"><img src="/img/profile.jpeg" alt=""></div>
+            </div>
+            <h3 class="sub">BREAKDOWN OF TRANSACTION</h3>
+            <table class="table table-borderless">
+              <thead>
+                <tr>
+                  <th scope="col">TRANSACTION ID</th>
+                  <th scope="col">AMOUNT</th>
+                  <th scope="col">DATE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>8746648849</td>
+                  <td>₦ 119,296.00.</td>
+                  <td>2020-11-23 12:18:13.</td>
+                </tr>
+                
+              </tbody>
+              
+            </table>
+           <div class="bursar">
+            <img src="/img/signature.png" alt="">
+            <h3 >TUPAC SHAKUR<br><span>BURSAR</span></h3>
+           </div>
+
+        </section>
+    </body>
+</html>
