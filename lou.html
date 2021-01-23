@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Letter of undertaking</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            section#top{
+                display: grid;
+                margin: 1em 6em;
+                justify-content: center;
+                margin: 3em;
+                padding: 2em;
+                border: solid 2px rgb(22, 5, 54);
+                border-radius: .3em;
+                
+            }
+            
+            img{
+                width: 10em;
+            }
+            img.signature{
+                width: 3em;
+            }
+            .watermarked {
+              position: relative;
+            }
+
+            .watermarked:after {
+              content: "";
+              display: block;
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              top: 0px;
+              left: 0px;
+              background-image: url("img/re.png");
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat;
+              opacity: 0.1;
+            }
+            .header{
+                display: flex;
+                color: #261477;
+                justify-content: center;
+            }
+            .sub-head{
+                display: grid;
+            }
+            .sub-head h3{
+                text-align: center;
+                font-weight: bolder;
+                font-size: 2rem;
+                text-decoration: underline;
+            }
+            .sub-content{
+                margin: 1em 2em;
+                font-size: 1.5em;
+                line-height: 2.5rem;
+            }
+            .sub-content h3{
+                font-size: 1.5rem;
+            }
+            .sub-content span{
+                font-weight: 200;
+                padding-left: 1rem;
+            }
+            section div.header{
+                text-align: center;
+                line-height: 2.5em;
+                }
+           
+            .content{
+                margin: .1em 2em;
+                text-justify: auto;
+                line-height: 1.7em;
+                font-size: 1.5em;
+            }
+            .note{
+                margin: 1.2em 0em;
+                text-align: center;
+            }
+
+            .rule{
+                width: 60%;
+                border-bottom: 2px dotted #000;
+                
+            }
+            .signatures{
+                display: grid;
+                grid-template-columns: 2fr 5fr;
+                font-weight: 600;
+            }
+            p.title{
+                margin-top: 1.3rem;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <section id="top">
+                <div class="header">
+                    <div class="first">
+                        <img src="/img/re.png"  alt="harvade logo">
+                    </div>
+                    <div class="second">
+                        <h2>HARVARDE COLLEGE OF BUSINESS AND MANAGEMENT STUDIES</h2>
+                        <P>Plot 1 – 12 Harvarde Close, Alagada Village, Obada/Adigbe Road, Abeokuta, Ogun State.</P>
+                    </div>
+                </div>
+                <div class="sub-head">
+                    <h3>Letter Of Undertaking</h3>
+                </div>
+                
+                <div class="content watermarked">
+                    <div class="sub-content">
+                     <h3>Student Name : <span> Joe Biden</span></h3>
+                     <h3>Matric Number : <span> OIC/103/454</span></h3>
+                     <h3>Department : <span> United States</span></h3>
+                     <h3>Year of admission : <span> 2090</span></h3>
+                    </div>
+                    <p>I {Name} hereby acknowledge that my O/level result does not meet with the institution’s requirement, I hereby promise to produce my complete O’level result on/ before the end of 2020/2021 Academic session. </p>
+                        <br>
+                    <p>Failure to do so will lead to forfeiting my Admission as a student of this institution.</p>
+                    
+                    <div class="signatures">
+                        <p class="title">Student Signature: </p>
+                        <p class="rule"></p>
+                        <p>Date: </p>
+                        <p class="rule"></p>
+                        
+                        <p class="title">Admission Officer: </p>
+                        <p class="rule"></p>
+                        <p>Date: </p>
+                        <p class="rule"></p>
+                        
+                        <p class="title">Registrar Signature: </p>
+                        <p class="rule"></p>
+                        <p>Date: </p>
+                        <p class="rule"></p>
+                    </div>
+                        <p class="note"><b>N.B:</b> All Official Stamps must be affixed.</p>
+                        <p class="note"><b>Note:</b> Letter of undertaking must be submitted to the Admission office.</p>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
