@@ -89,17 +89,20 @@
             }
 
             .rule{
-                width: 60%;
+                width: 95%;
                 border-bottom: 2px dotted #000;
-                
+                margin: 1.3rem;
             }
             .signatures{
                 display: grid;
-                grid-template-columns: 2fr 5fr;
+                text-align: center;
+                justify-content: space-between;
+                grid-template-columns: 1fr 1fr;
+                margin-top: 5rem;
                 font-weight: 600;
             }
-            p.title{
-                margin-top: 1.3rem;
+            .registrar{
+                margin-top: 5rem;
             }
 
         </style>
@@ -132,21 +135,20 @@
                     <p>Failure to do so will lead to forfeiting my Admission as a student of this institution.</p>
                     
                     <div class="signatures">
-                        <p class="title">Student Signature: </p>
-                        <p class="rule"></p>
-                        <p>Date: </p>
-                        <p class="rule"></p>
-                        
-                        <p class="title">Admission Officer: </p>
-                        <p class="rule"></p>
-                        <p>Date: </p>
-                        <p class="rule"></p>
-                        
-                        <p class="title">Registrar Signature: </p>
-                        <p class="rule"></p>
-                        <p>Date: </p>
-                        <p class="rule"></p>
+                        <div>
+                            <p class="rule"></p>
+                        <p class="title">Student (Signature/Date) </p>
+                        </div>
+                        <div>
+                            <p class="rule"></p>
+                            <p class="title">Admission Officer (Signature/Date)</p>
+                        </div>
+                        <div class="registrar">
+                            <p class="rule"></p>
+                            <p class="title">Registrar (Signature/Date)</p>
+                        </div>
                     </div>
+                    
                         <p class="note"><b>N.B:</b> All Official Stamps must be affixed.</p>
                         <p class="note"><b>Note:</b> Letter of undertaking must be submitted to the Admission office.</p>
                 </div>
