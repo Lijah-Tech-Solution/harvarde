@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        img{
+                width: 8em;
+            }
+        .main-div{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .card{
+            display: grid;
+            grid-template-columns: 4fr 1fr;
+            padding: .7rem;
+            height: 13.5rem;
+            margin: .5rem;
+            border: solid #81c618 2px;
+            border-radius: .4rem;
+        }
+        .watermarked {
+            position: relative;
+        }
+
+        .watermarked:after {
+            content: "";
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 2em;
+            background-image: url("img/re.png");
+            background-size: contain;
+            background-position: left;
+            background-repeat: no-repeat;
+            opacity: 0.1;
+        }
+        .icon{
+            width: 1.1em;
+        }
+        .card h2{
+            font-size: 1.3rem;
+            color: #31146d;
+        }
+        .card p{
+            font-size: .8rem;
+            margin: .5rem .3rem;
+            line-height: 1.1rem;
+        }
+        .card span{
+            background-color: aqua;
+            padding: .3rem;
+        }
+        .sub-content{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-div">
+        <div class="card watermarked">
+            <div class="left">
+                <h2>How to use this card:</h2>
+                <p>Scratch the covered area to obtain PIN </p>
+                <div class="sub-content">
+                    <img class="icon" src="/img/global.svg" alt="icon">
+                    <p><b>portal.harvardecollege.com</b> </p>
+                </div>
+                <div class="sub-content">
+                    <img class="icon" src="/img/mail.svg" alt="icon">
+                    <p><b>ictofice@harvardecollege.com</b> </p>
+                    </div>
+            </div>
+            <div class="right">
+                <img src="img/re.png" alt="">
+                <span>HA2090509396691</span>
+            </div>
+        </div>
+        <div class="card watermarked">
+            <div class="left">
+                <h2>How to use this card:</h2>
+                <p>Scratch the covered area to obtain PIN </p>
+                <div class="sub-content">
+                    <img class="icon" src="/img/global.svg" alt="icon">
+                    <p><b>portal.harvardecollege.com</b> </p>
+                </div>
+                <div class="sub-content">
+                    <img class="icon" src="/img/mail.svg" alt="icon">
+                    <p><b>ictofice@harvardecollege.com</b> </p>
+                    </div>
+            </div>
+            <div class="right">
+                <img src="img/re.png" alt="">
+                <span>HA2090509396691</span>
+            </div>
+        </div>
+        <div class="card watermarked">
+            <div class="left">
+                <h2>How to use this card:</h2>
+                <p>Scratch the covered area to obtain PIN </p>
+                <div class="sub-content">
+                    <img class="icon" src="/img/global.svg" alt="icon">
+                    <p><b>portal.harvardecollege.com</b> </p>
+                </div>
+                <div class="sub-content">
+                    <img class="icon" src="/img/mail.svg" alt="icon">
+                    <p><b>ictofice@harvardecollege.com</b> </p>
+                    </div>
+            </div>
+            <div class="right">
+                <img src="img/re.png" alt="">
+                <span>HA2090509396691</span>
+            </div>
+        </div>
+        <div class="card watermarked">
+            <div class="left">
+                <h2>How to use this card:</h2>
+                <p>Scratch the covered area to obtain PIN </p>
+                <div class="sub-content">
+                    <img class="icon" src="/img/global.svg" alt="icon">
+                    <p><b>portal.harvardecollege.com</b> </p>
+                </div>
+                <div class="sub-content">
+                    <img class="icon" src="/img/mail.svg" alt="icon">
+                    <p><b>ictofice@harvardecollege.com</b> </p>
+                    </div>
+            </div>
+            <div class="right">
+                <img src="img/re.png" alt="">
+                <span>HA2090509396691</span>
+            </div>
+        </div>
+       
+    </div>
+   
+</body>
+</html>
