@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Undergraduate Application Print Out</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="bootstrap.min.css" rel="stylesheet">
+        <style>
+             *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            img{
+                width: 15em;
+            }
+            section#main{
+                margin: 5em;
+                padding: 2em;
+                border: solid 2px rgb(22, 5, 54);
+                border-radius: .3em;
+                background-color: #eaf0f0;
+            }
+            .header{
+                display: grid;
+                grid-template-columns: 1fr 5fr 1fr;
+                align-items: center;
+            }
+            section div.header{
+                text-align: center;
+                line-height: 2em;
+            }
+            h3{
+              font-weight: bold;
+              padding: .5em;
+              color: #fff;
+              background-color: #26176b;
+              text-transform: capitalize;
+            }
+            .header h2{
+                font-size: 1.5em;
+                font-weight: bolder;
+                color: #261477;
+            }
+             .title{
+                font-weight: lighter;
+                margin: 0 0 1.5em 0;
+                text-align: center;
+            }
+            .personal{
+              display: grid;
+              grid-template-columns: 1fr 4fr;
+              margin: .7rem 0;
+              
+            }
+            .sub-left{
+              font-weight: 600;
+              font-size: 1.3rem;
+              text-align: right;
+            }
+            .right{
+              display: grid;
+              justify-content: center;
+              line-height: 2rem;
+              word-break: break-all;
+            }
+
+            .sub-right{
+              width: 30rem;
+              font-size: 1.2rem;
+              word-wrap: break-word;
+              word-break: break-all;
+            }
+           .courses{
+             display: grid;
+             margin: 1rem 0;
+             font-size: 1.3rem;
+           }
+           th{
+            padding: .7rem 0;
+           }
+           .course-row{
+             text-align: center;
+             padding: .4rem 0;
+           }
+           .course-foot{
+             text-align: center;
+             font-weight: 600;
+             padding: 1rem 0;
+           }
+           .sign{
+             display: grid;
+             grid-template-columns: 1fr 1fr;
+             margin: 4rem 0;
+           }
+           .student, .adviser{
+             display: grid;
+             grid-template-columns: 1fr 3fr;
+           }
+          .line{
+              width: 60%;
+              border-bottom: 2px solid #000;
+           }
+        </style>
+    </head>
+    <body>
+        <section id="main">
+            <div class="header">
+                <div class="first">
+                    <img src="img/re.png"  alt="harvade logo">
+                </div>
+                <div class="second">
+                    <h2>HARVARDE COLLEGE OF BUSINESS AND MANAGEMENT SCIENCE <br> <span>PARTNERING</span> <br> PENOTHNIEL COLLEGE OF HEALTH SCIENCES AND TECHNOLOGY</h2>
+                    
+                </div>
+                <div class="third"><img src="img/re.png" alt="harvade logo"></div>
+                
+            </div>
+            <h2 class="title">2017/2018 RAIN COURSE REGISTRATION FORM</h2>
+
+            <h3>Personal Info</h3>
+           <div class="personal">
+             <div class="pasport">
+               <img src="img/profile.jpeg" alt="">
+             </div>
+             <div class="main-content">
+               <div class="right">
+                <table>
+                  <tr>
+                      <td class="sub-left">Matric Number : </td>
+                      <td class="sub-right">EES/23/2020</td>
+                  </tr>
+                  <tr>
+                      <td class="sub-left">Name : </td>
+                      <td class="sub-right">John Akpan</td>
+                  </tr>
+                  <tr>
+                      <td class="sub-left">Level :</td>
+                      <td class="sub-right">100</td>
+                  </tr>
+                  <tr>
+                      <td class="sub-left">Semester :</td>
+                      <td class="sub-right"> Rain</td>
+                  </tr>
+                  <tr>
+                      <td class="sub-left">Faculty : </td>
+                      <td class="sub-right">ENGINEERING & ENVIRONMENTAL STUDIES</td>
+                  </tr>
+                  <tr>
+                      <td class="sub-left">Department : </td>
+                      <td class="sub-right">COMPUTER AND ELECTRICAL ENGINEERING (B. ComputerEngineering)</td>
+                  </tr>
+              </table>
+               </div>
+             </div>
+           </div>
+              <br>
+      
+                <h3>Courses</h3>
+                <div class="courses ">
+                  <table class="table">
+                    <thead>
+                        <tr>
+                          <th>S/N</th>
+                          <th>CODE</th>
+                          <th>COURSE TITLE</th>
+                          <th>UNIT</th>
+                          <th>STATUS</th>
+                        </tr>
+                      </thead>
+                    <tbody>
+                      <tr>
+                        <td class="course-row">1</td>
+                        <td class="course-row">FEG 502</td>
+                        <td class="course-row">Law and Management</td>
+                        <td class="course-row">2</td>
+                        <td class="course-row">C</td>
+                      </tr>
+                      <tr>
+                        <td class="course-row">2</td>
+                        <td class="course-row">FEG 502</td>
+                        <td class="course-row">Law and Management</td>
+                        <td class="course-row">2</td>
+                        <td class="course-row">C</td>
+                      </tr>
+                      <tr>
+                        <td class="course-row">3</td>
+                        <td class="course-row">FEG 502</td>
+                        <td class="course-row">Law and Management</td>
+                        <td class="course-row">2</td>
+                        <td class="course-row">C</td>
+                      </tr>
+                      <tr>
+                        <td class="course-row">4</td>
+                        <td class="course-row">FEG 502</td>
+                        <td class="course-row">Law and Management</td>
+                        <td class="course-row">2</td>
+                        <td class="course-row">C</td>
+                      </tr>
+                      <tr>
+                        <td class="course-row">5</td>
+                        <td class="course-row">FEG 502</td>
+                        <td class="course-row">Law and Management</td>
+                        <td class="course-row">2</td>
+                        <td class="course-row">C</td>
+                      </tr>
+                      <tr>
+                        <td class="course-row">6</td>
+                        <td class="course-row">FEG 502</td>
+                        <td class="course-row">Law and Management</td>
+                        <td class="course-row">2</td>
+                        <td class="course-row">C</td>
+                      </tr>
+                    </tbody>
+                    <tfoot>
+                      <tr>
+                        <td class="course-foot"></td>
+                        <td class="course-foot">Total Number of Units Registered</td>
+                        <td class="course-foot"></td>
+                        <td class="course-foot">200</td>
+                        <td class="course-foot"></td>
+                      </tr>
+                      <tr>
+                        <td class="course-foot"></td>
+                        <td class="course-foot"></td>
+                        <td class="course-foot">Date Registered</td>
+                        <td class="course-foot">20-20-2020</td>
+                        <td class="course-foot"></td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                  <div class="sign">
+                    <div class="student">
+                      <p>Signature</p>
+                      <p class="line"></p> 
+                    </div>
+                    <div class="adviser">
+                      <p>HOD</p>
+                      <p class="line"></p>
+                    </div>
+                       
+                    
+                  </div>
+                </div>
+              
+        </section>
+    </body>
+</html>
