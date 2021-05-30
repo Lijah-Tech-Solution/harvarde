@@ -4,11 +4,7 @@
         <title>Undergraduate Application Print Out</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-<<<<<<< HEAD
-        <link href="bootstrap.min.css" rel="stylesheet">
-=======
         <!-- <link href="bootstrap.min.css" rel="stylesheet"> -->
->>>>>>> 4d50768f8b984fed5f416694107aeae599e810ff
         <style>
              *{
                 box-sizing: border-box;
@@ -17,34 +13,28 @@
                 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             }
             img{
-<<<<<<< HEAD
-                width: 15em;
-            }
-            section#main{
-                margin: 5em;
-                padding: 2em;
-=======
                 width: 10em;
             }
             section#main{
-                /* margin: 2em; */
+                margin: 1rem;
                 /* padding: 2em; */
->>>>>>> 4d50768f8b984fed5f416694107aeae599e810ff
-                border: solid 2px rgb(22, 5, 54);
-                border-radius: .3em;
-                background-color: #eaf0f0;
+                /* border: solid .2px rgb(22, 5, 54); */
+                border-radius: .2em;
+                background-color: #f7fcfc;
             }
             .header{
                 display: grid;
-                grid-template-columns: 1fr 5fr 1fr;
+                grid-template-columns: 1fr;
                 align-items: center;
             }
-<<<<<<< HEAD
-=======
+            
             .header img{
               width: 7rem;
             }
->>>>>>> 4d50768f8b984fed5f416694107aeae599e810ff
+            .first img{
+              width: 100%;
+              object-fit: cover;
+            }
             section div.header{
                 text-align: center;
                 line-height: 2em;
@@ -57,11 +47,7 @@
               text-transform: capitalize;
             }
             .header h2{
-<<<<<<< HEAD
-                font-size: 1.5em;
-=======
                 font-size: 1.1em;
->>>>>>> 4d50768f8b984fed5f416694107aeae599e810ff
                 font-weight: bolder;
                 color: #261477;
             }
@@ -69,49 +55,21 @@
                 font-weight: lighter;
                 margin: 0 0 1.5em 0;
                 text-align: center;
-<<<<<<< HEAD
-=======
                 font-size: 1rem;
->>>>>>> 4d50768f8b984fed5f416694107aeae599e810ff
             }
             .personal{
               display: grid;
               grid-template-columns: 1fr 4fr;
-<<<<<<< HEAD
-              margin: .7rem 0;
-=======
-              /* margin: 1.5rem 0; */
->>>>>>> 4d50768f8b984fed5f416694107aeae599e810ff
-              
             }
             .sub-left{
               font-weight: 600;
-<<<<<<< HEAD
-              font-size: 1.3rem;
-=======
               font-size: 1.1rem;
->>>>>>> 4d50768f8b984fed5f416694107aeae599e810ff
               text-align: right;
             }
             .right{
               display: grid;
               justify-content: center;
               line-height: 2rem;
-<<<<<<< HEAD
-              word-break: break-all;
-            }
-
-            .sub-right{
-              width: 30rem;
-              font-size: 1.2rem;
-              word-wrap: break-word;
-              word-break: break-all;
-            }
-           .courses{
-             display: grid;
-             margin: 1rem 0;
-             font-size: 1.3rem;
-=======
               word-break: normal;
             }
 
@@ -123,9 +81,7 @@
             }
            .courses{
              display: grid;
-             /* margin: 1rem 0; */
              font-size: 1rem;
->>>>>>> 4d50768f8b984fed5f416694107aeae599e810ff
            }
            th{
             padding: .7rem 0;
@@ -142,11 +98,7 @@
            .sign{
              display: grid;
              grid-template-columns: 1fr 1fr;
-<<<<<<< HEAD
-             margin: 4rem 0;
-=======
              margin: 1rem 0;
->>>>>>> 4d50768f8b984fed5f416694107aeae599e810ff
            }
            .student, .adviser{
              display: grid;
@@ -156,25 +108,40 @@
               width: 60%;
               border-bottom: 2px solid #000;
            }
-<<<<<<< HEAD
-=======
-
->>>>>>> 4d50768f8b984fed5f416694107aeae599e810ff
+           @media only screen and (max-width: 500px) {
+            .header{
+              grid-template-columns: 1fr;
+            }
+            .personal{
+              grid-template-columns: 1fr;
+            }
+            .sub-left{
+              width: 10rem;
+              font-size: 1rem;
+            }
+            .sub-right{
+              width: 15rem;
+              font-size: .9rem;
+              padding-left: 1rem;
+            }
+            .courses{
+              font-size: .8rem;
+            }
+            .course-row {
+              padding: .1rem 0;
+            }
         </style>
     </head>
     <body>
         <section id="main">
             <div class="header">
                 <div class="first">
-                    <img src="img/re.png"  alt="harvade logo">
+                    <img src="img/logo.png"  alt="harvade logo">
                 </div>
-                <div class="second">
-                    <h2>HARVARDE COLLEGE OF BUSINESS AND MANAGEMENT SCIENCE <br> <span>PARTNERING</span> <br> PENOTHNIEL COLLEGE OF HEALTH SCIENCES AND TECHNOLOGY</h2>
-                    
-                </div>
-                <div class="third"><img src="img/re.png" alt="harvade logo"></div>
+                
                 
             </div>
+            
             <h2 class="title">2017/2018 RAIN COURSE REGISTRATION FORM</h2>
 
             <h3>Personal Info</h3>
@@ -186,7 +153,7 @@
                <div class="right">
                 <table>
                   <tr>
-                      <td class="sub-left">Matric Number : </td>
+                      <td class="sub-left">Matric :</td>
                       <td class="sub-right">EES/23/2020</td>
                   </tr>
                   <tr>
@@ -294,11 +261,7 @@
                       <p class="line"></p> 
                     </div>
                     <div class="adviser">
-<<<<<<< HEAD
-                      <p>HOD</p>
-=======
                       <p>Part Adviser</p>
->>>>>>> 4d50768f8b984fed5f416694107aeae599e810ff
                       <p class="line"></p>
                     </div>
                        
